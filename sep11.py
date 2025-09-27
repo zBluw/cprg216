@@ -1,10 +1,7 @@
-
-
-read ,y,c
+read , y, z
 if x < y and x < z:
-    smallest = x
-elif b < x and y < z:
-    smallest = y
-else:
-    smallest = z
-print (smallest)
+    print("x is the smallest")
+if y < x and y < z:
+    print("y is the smallest")
+if z < x and z < y:
+    print("z is the smallest")
